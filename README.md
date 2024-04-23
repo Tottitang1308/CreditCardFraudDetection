@@ -32,7 +32,6 @@ The dataset contains only numerical input variables which are the result of a PC
 The model used is a Random Forest Classifier. A GridSearchCV was employed to tune the hyperparameters and improve the model's recall to effectively predict more fraud cases.
 
 ## Results:
-![image.png](attachment:image.png)
 
 ### Fraud Detection Model Performance Report
 #### Overview:
@@ -54,7 +53,6 @@ Our latest fraud detection system has been evaluated to determine its accuracy i
 This model represents a strong step towards protecting both our customers and our business from the risks of fraudulent transactions.
 
 ## Features Importance:
-![image.png](attachment:image.png)
 
 ### Interpretation:
 - V10: This is the most important feature according to the model. Whatever original variables contribute most heavily to the V10 component are highly predictive of the target variable (likely whether a transaction is fraudulent).
